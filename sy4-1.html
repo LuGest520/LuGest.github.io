@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sy4-1</title>
+</head>
+
+<style>
+    .box{
+        width: 600px;
+        height: 700px;
+        position: absolute;
+        margin: auto;
+        top: 50px;
+        left: 0;
+        right: 0;
+        background-color: rgb(202, 202, 202);
+        border: 3px solid black;
+        font-size: 17px;
+        }
+
+    .logo{
+        width: 210px;
+        height: 50px;
+        position:absolute;
+        background-color: yellow;
+        margin-left: 25px;
+        margin-top: 25px;
+        border: 3px solid black; 
+        text-align: center;
+        line-height:50px;
+    }
+    .banner{
+        width: 260px;
+        height: 50px;
+        position:absolute;
+        background-color: rgb(87, 6, 236);
+        margin-left: 300px;
+        margin-top: 25px;
+        border: 3px solid black; 
+        text-align: center;
+        line-height: 50px;
+    }
+    .menu{
+        width: 535px;
+        height: 50px;
+        position:absolute;
+        background-color: rgb(8, 8, 8);
+        margin-left: 25px;
+        margin-top: 100px;
+        border: 3px solid black; 
+        text-align: center;
+        line-height: 50px;
+        color: white;
+    }
+    
+    .header{
+        height: 170px;
+        width: 580px;
+        background-color: red;
+        margin:10px 5px 30px 8px;
+        border: 3px solid yellow;
+    }
+
+
+
+    .sidebar{
+        height: 250px;
+        width: 220px;
+        background-color: blue;
+        margin: 10px 5px 10px 10px;
+        text-align: center;
+        line-height: 250px;
+        float: left;
+    }
+    .content{
+        height: 250px;
+        width: 310px;
+        background-color: rgb(8, 203, 238);
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        line-height: 250px;
+        float: right;
+    }
+    .main{        
+        height: 300px;
+        width: 580px;
+        background-color: rgb(14, 129, 43);
+        margin: 10px 5px 30px 8px;;
+        border: 3px solid yellow;
+        color: white;
+        float: left;
+        font-size: 20px;
+    }
+    .foote{
+        height: 80px;
+        width: 580px;
+        background-color: red;
+        border:3px solid yellow;
+        margin:10px 5px 30px 8px;
+        float:left;
+        text-align: center;
+        line-height: 80px;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+
+    .bu{width:100px;height:30px;background-color: lawngreen;}
+    .lu{margin-top: 780px;
+        margin-left: 40%;
+        }
+</style>
+
+<body>
+    <div class="box">
+        div→box&nbsp;包含下面3部分结构div(header,main,footer,)布局网页宽度和居中
+        <div class="header">
+            <div class="logo">div→id=logo</div> 
+                <div class="banner">div→id=banner</div>
+                    <div class="menu">div→id=menu</div>
+        </div>
+
+    <div class="main">
+            div→id=main&nbsp;包含下面2个div(sidebar,content)
+            <div class="sidebar">div→id=sidebar</div>
+            <div class="content">div→id=content</div>
+    </div>
+
+        <div class="foote">div→id=footer</div>
+    </div>
+
+    <div class="lu">
+        <button class="bu"><a href="./sy3-6.html">上一个作业</a></button>
+        <button class="bu"><a href="./index.html">返回小世界</a></button>
+        <button class="bu"><a href="./sy4-2.html">下一个作业</a></button>
+    </div>
+</body>
+</html>
