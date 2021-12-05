@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sy7-2</title>
+    <style type="text/css">
+        .a {width: 400px;
+            margin: 200px auto;}
+        .lu{margin-left:520px;
+            margin-top: 0px;
+            position: absolute;}
+        .bu{width:150px;height:40px;background-color: lawngreen;}
+    </style>
+    <script type="text/javascript">
+        function my_open() {
+            let my_image = document.getElementById("light");
+            my_image.src = "./开灯.png";}
+        function my_close() {
+            let my_image = document.getElementById("light");
+            my_image.src = "./关灯.png";}
+    </script>
+</head>
+<body>
+    <div class="a">
+        <button onclick="my_close()">关灯</button>
+        <img id="light" src="./关灯.png" alt="#" />
+        <button onclick="my_open()">开灯</button>
+    </div>
+    <div class="lu">
+        <br/>
+        <span><button class="bu"><a href="./sy7-1.html">返回</a></button></span>
+        <span><button class="bu"><a href="./index.html">返回小世界</a></button></span>
+        <span><button class="bu"><a href="./sy8-1.html">下一个作业</a></button></span>
+    </div>
+</body>
+</html>
